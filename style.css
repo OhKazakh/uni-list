@@ -1,0 +1,292 @@
+body{
+    background: #e1b382;
+    color: #080808;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    font-size: 2em;
+    font-family: cursive;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+#canada h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+#canada span{
+    color: #FF2800;
+}
+
+.requirements{
+    border: 1.5px solid #c89666;
+    border-radius: 10px;
+    background-color: #c89666;
+    color: #12343b;
+    font-size: 22px;
+    flex: 1;
+    margin-bottom: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+.about{
+    border: 1.5px solid #c89666;
+    border-radius: 10px;
+    background-color: #c89666;
+    color: #12343b;
+    font-size: 22px;
+    flex: 1;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    font-family: "Playfair Display", serif
+}
+
+.container img{
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    max-width: 50%;
+    height: auto;
+    object-fit: contain;
+    max-height: 200px; 
+    transition: 0.5s;
+    width: 170px;
+    height: 170px;
+}
+
+.nyu img{
+    width: 300px;
+    margin-left: -60px;
+    margin-right: 40px;
+}
+
+.dartmouth img{
+    width: 250px;
+    margin-left: -40px;
+    margin-right: 70px;
+}
+
+.yale img{
+    width: 250px;
+    margin-left: -40px;
+    margin-right: 70px;
+}
+
+.brown img{
+    width: 250px;
+    margin-left: -40px;
+    margin-right: 70px;
+}
+
+.western img{
+    width: 250px;
+    margin-left: -40px;
+    margin-right: 70px;
+}
+
+.wesleyan img{
+    width: 250px;
+    margin-left: -40px;
+    margin-right: 70px;
+}
+
+.container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#kazakhstan h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+#kazakhstan span{
+    color: #0080FE;
+}
+
+#us h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+#us span{
+    color: #0E4C92;
+}
+
+#uae h1{
+    text-align: center;
+    font-size: 45px;
+}
+
+#uae span{
+    color: #FADA5E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5em;
+    }
+    
+    .container {
+        flex-direction: column; 
+        align-items: center;
+    }
+    
+    .container img {
+        max-width: 100%; 
+        margin: 0; 
+    }
+    
+    .about, .requirements {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2D545E;
+}
+
+.custom-shape-divider-top-1705031727 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1705031727 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 90px;
+}
+
+.custom-shape-divider-top-1705031727 .shape-fill {
+    fill: #2d545e;
+}
+
+.custom-shape-divider-bottom-1705295343 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1705295343 svg {
+    position: relative;
+    display: block;
+    width: calc(137% + 1.3px);
+    height: 90px;
+}
+
+.custom-shape-divider-bottom-1705295343 .shape-fill {
+    fill: #2D545E;
+}
