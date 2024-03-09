@@ -4,17 +4,6 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-header {
-    font-size: 2em;
-    font-family: cursive;
-    text-align: center;
-    color: #fff;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    position: relative;
-    z-index: 1;
-}
-
 .container{
     display: flex;
     justify-content: space-between;
@@ -27,10 +16,95 @@ header {
     transform: translateX(-100%);
 }
 
+header {
+    font-size: 2em;
+    font-family: cursive;
+    text-align: center;
+    color: #fff;
+    flex: 1;
+    text-align: center;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-block;  
+    padding: 1em;
+    margin: 3em;
+    background: rgba(225, 179, 130, 0.6);
+    border: 2px solid #000;
+}
+
+.back-to-top:hover {
+    cursor: pointer;
+}
+
 .show{
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px 20px;
+}
+
+.navbar {
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%);
+    right: 20px; 
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative; 
+}
+
+.navbar ul li {
+    display: inline;
+    margin-left: 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #959988;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #ffffbf;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover{
+    color: #FBFCF8;
+}
+
+.navbar ul li:hover::after {
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #ffffbf;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
 }
 
 #canada h1{
@@ -62,7 +136,7 @@ header {
     flex: 1;
     margin-bottom: 20px;
     margin-right: 100px;
-    font-family: "Playfair Display", serif
+    font-family: "Playfair Display", serif;
 }
 
 .container img{
@@ -185,7 +259,7 @@ header {
 
 @media (max-width: 768px) {
     header {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
     
     .container {
@@ -201,6 +275,32 @@ header {
     .about, .requirements {
         margin-right: 0; 
         margin-bottom: 10px; 
+    }
+    
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+        position: relative;
+    }
+
+    .navbar {
+        margin-top: 25%;
+        position: static;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin-left: 0;
+        margin: 5px;
+    }
+
+    .navbar ul li a {
+        font-size: 20px;
+    }
+
+    .navbar ul li::after {
+        display: none;
     }
 }
 
@@ -250,7 +350,7 @@ header {
     color: #2D545E;
 }
 
-.custom-shape-divider-top-1705031727 {
+.custom-shape-divider-top-1709494658 {
     position: absolute;
     top: 0;
     left: 0;
@@ -259,16 +359,16 @@ header {
     line-height: 0;
 }
 
-.custom-shape-divider-top-1705031727 svg {
+.custom-shape-divider-top-1709494658 svg {
     position: relative;
     display: block;
-    width: calc(100% + 1.3px);
-    height: 90px;
+    width: calc(300% + 1.3px);
+    height: 170px;
 }
 
-.custom-shape-divider-top-1705031727 .shape-fill {
-    fill: #2d545e;
-}
+.custom-shape-divider-top-1709494658 .shape-fill {
+    fill: #2D545E;
+}     
 
 .custom-shape-divider-bottom-1705295343 {
     position: fixed;
