@@ -54,7 +54,3 @@ flkty.on('scroll', function () {
   });
 });
 
-var loader = document.getElementById("preloader");
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-})
