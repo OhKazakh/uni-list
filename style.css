@@ -176,6 +176,19 @@ header {
     margin-right: 70px;
 }
 
+.clark img{
+    width: 250px;
+    margin-left: -40px;
+    margin-right: 70px;
+}
+
+.fu img{
+    width: 250px;
+    height: auto;
+    margin-left: -40px;
+    margin-right: 70px;
+}
+
 .western img{
     width: 250px;
     margin-left: -40px;
