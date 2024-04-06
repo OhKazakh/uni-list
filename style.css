@@ -100,7 +100,7 @@ header {
     color: #FBFCF8;
 }
 
-.navbar ul li:hover::after {
+.navbar ul li:hover::after{
     content: '';
     height: 3px;
     width: 100%;
@@ -111,7 +111,7 @@ header {
     transition: 0.5s;
 }
 
-#navbar {
+#navbar{
     margin-top: 3%;
     margin-right: 1%;
     margin-left: 1%;
@@ -123,7 +123,7 @@ header {
     background-color: #da9e66;
 }
 
-#navbar a {
+#navbar a{
     float: left;
     display: block;
     color: #f2f2f2;
@@ -133,17 +133,17 @@ header {
     text-transform: uppercase;
 }
 
-.content {
+.content{
     padding: 16px;
 }
 
-.sticky {
+.sticky{
     position: fixed;
     top: 0;
     width: 100%;
 }
 
-.sticky + .content {
+.sticky + .content{
     padding-top: 60px;
 }
 
