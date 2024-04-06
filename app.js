@@ -53,4 +53,3 @@ flkty.on('scroll', function () {
     image.style.backgroundPosition = x + 'px';
   });
 });
-
