@@ -120,9 +120,9 @@ header {
     overflow: hidden;
     width: 30%;
     z-index: 1000;
-    border: 1.5px solid #da9e66;
+    border: 1.5px solid rgba(218, 158, 102, 0.7);
     border-radius: 100px;
-    background-color: #da9e66;
+    background-color: rgba(218, 158, 102, 0.6);
 }
 
 #navbar a{
