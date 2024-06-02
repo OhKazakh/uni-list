@@ -26,7 +26,6 @@ header {
     text-align: center;
     color: #fff;
     flex: 1;
-    text-align: center;
 }
 
 .back-to-top {
@@ -116,7 +115,7 @@ header {
     margin-right: 1%;
     margin-left: 1%;
     overflow: hidden;
-    width: 30%;
+    width: 18%;
     z-index: 1000;
     border: 1.5px solid #da9e66;
     border-radius: 100px;
@@ -277,36 +276,59 @@ header {
     color: #FADA5E;
 }
 
+#ger h1{
+    text-align: center;
+    font-size: 45px;
+}
 
+#ger span{
+    color: #dd0000;
+}
 
+#uk h1{
+    text-align: center;
+    font-size: 45px;
+}
 
+#uk span{
+    color: #FFFFFF;
+}
 
+#france h1{
+    text-align: center;
+    font-size: 45px;
+}
 
+#france span{
+    color: #0055A4;
+}
 
+h1#cont{
+    text-align: center;
+    font-size: 65px;
+}
 
+h1#cont span{
+    color: #FF0000;
+}
 
+#singapore h1{
+    text-align: center;
+    font-size: 45px;
+}
 
+#singapore span{
+    color: #FFFFFF;
+}
 
+#malaysia h1{
+    text-align: center;
+    font-size: 45px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#malaysia span{
+    color: #ffd100;
+}
 
 
 
