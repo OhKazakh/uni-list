@@ -342,9 +342,11 @@ h1#cont span{
     header {
         font-size: 1.2em;
     }
+
     #navbar {
-        width: 80%;
+        width: 55%;
     }
+
     .container {
         flex-direction: column; 
         align-items: center;
@@ -359,7 +361,48 @@ h1#cont span{
         margin-right: 0; 
         margin-bottom: 10px; 
     }
+
+    h1#cont{
+        font-size: 35px;
+    }
+
+    #singapore h1{
+        font-size: 20px;
+    }
     
+    #us h1{
+        font-size: 20px;
+    }
+
+    #canada h1{
+        font-size: 20px;
+    }
+
+    #kazakhstan h1{
+        font-size: 20px;
+    }
+
+    #uae h1{
+        font-size: 20px;
+    }
+
+    #ger h1{
+        font-size: 20px;
+    }
+
+    #uk h1{
+        font-size: 20px;
+    }
+
+    #malaysia h1{
+        font-size: 20px;
+    }
+
+    #au h1{
+        font-size: 20px;
+    }
+
+
     .nav {
         flex-direction: column;
         align-items: center;
